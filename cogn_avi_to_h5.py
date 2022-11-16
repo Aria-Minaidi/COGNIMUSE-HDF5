@@ -12,9 +12,8 @@ from PIL import Image
 from torchvision import transforms
 import torch
 sys.path.append('../')
-sys.path.append('/content/drive/MyDrive/video_summarization-master')
-sys.path.append('/content/drive/MyDrive/video_summarization-master/utils')
-sys.path.append('/content/drive/MyDrive/video_summarization-master/utils/KTS1')
+sys.path.append('/utils')
+sys.path.append('/utils/KTS1')
 
 import networks
 from networks.CNN import ResNet
