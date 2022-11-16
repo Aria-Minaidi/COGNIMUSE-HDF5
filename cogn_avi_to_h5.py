@@ -11,7 +11,7 @@ from PIL import Image
 
 from torchvision import transforms
 import torch
-sys.path.append('../')
+
 sys.path.append('/utils')
 sys.path.append('/utils/KTS1')
 
